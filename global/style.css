@@ -1,0 +1,93 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.iconsas {
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+.icons {
+  font-size: 3rem;
+  color: #1a1a1a;
+}
+
+body {
+  height: 100%;
+}
+
+.my-justify-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.my-p {
+  padding: 1rem 1rem;
+}
+
+.sidebar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidecom-1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.black {
+  background-color: #1a1a1a;
+}
+
+.sidecom-2 {
+  gap: 2rem;
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.ion-button {
+  display: flex;
+  align-self: center;
+  border-width: 0;
+  border: none;
+  background-color: transparent !important;
+  color: #fff;
+  opacity: 0.5;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ion-button:hover {
+  background-color: #fff;
+  opacity: 0.75;
+}
+
+.ion-button-active {
+  background-color: transparent !important;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.icon-title {
+  font-size: 3rem;
+  color: whitesmoke;
+}
